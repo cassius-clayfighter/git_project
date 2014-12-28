@@ -1,0 +1,42 @@
+/*=========================================
+BROWSER RESET | UNIVERSAL
+==========================================*/
+
+h1, h2, h3, h4, h5, h6, header, a, p, img, table, tr, td,link, article, aside, figure, body, footer, div, span, nav, ul, ol, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+body {
+	background-color: #000;
+}
+
+h1 {
+	font-family: helvetica, sans-serif, times;
+	padding: 1em 0 0.1em 0;
+	text-align: center;
+	color: #fff;
+	font-size: 10em;
+}
+
+#menu {
+	color: #fff;
+	list-style-type: none;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 0 4em 0 0;
+	font-size: 1.5em;
+	text-align: center;
+	font-family: times, helvetica;
+}
+
+img {
+	display: block;
+	padding: 4em 0 4em 0em;
+	margin: 0 auto 0 auto;
+}
