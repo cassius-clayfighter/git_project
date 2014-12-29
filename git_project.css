@@ -10,7 +10,12 @@ h1, h2, h3, h4, h5, h6, header, a, p, img, table, tr, td,link, article, aside, f
 }
 
 body {
-	background-color: #000;
+	background-color: #1C1C1C;
+	color: #fff;
+}
+
+header {
+	border-top: 1.5em solid #fff;
 }
 
 h1 {
@@ -37,6 +42,61 @@ li {
 
 img {
 	display: block;
-	padding: 4em 0 4em 0em;
+	padding: 4em 0 2em 0em;
 	margin: 0 auto 0 auto;
+	max-width: 40%;
+	max-height: auto;
 }
+
+p {
+	padding-left: 30%;
+	padding-bottom: 2em;
+	font-size: 3em;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 3em;
+	text-decoration: underline;
+}
+
+/*=========================================
+MEDIA QUERY @ 700PX & 500PX
+==========================================*/
+
+@media screen and (max-width: 1200px) {
+
+h1 {
+	font-size: 6.5em;
+}
+
+li {
+	font-size: 1.3em;
+}
+
+@media screen and (max-width: 800px) {
+
+h1 {
+	font-size: 3.5em;
+}
+
+li {
+	display: block;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+p {
+	font-size: 2em;
+	font-weight: 100;
+}
+
+}
+
+}
+
+
+
+
+
+
