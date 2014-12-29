@@ -15,15 +15,15 @@ body {
 }
 
 header {
-	border-top: 1.5em solid #fff;
+	border-top: 0.2em solid #fff;
 }
 
 h1 {
 	font-family: helvetica, sans-serif, times;
-	padding: 1em 0 0.1em 0;
+	padding: 0.1em 0 0em 0;
 	text-align: center;
 	color: #fff;
-	font-size: 10em;
+	font-size: 5.5em;
 }
 
 #menu {
@@ -35,7 +35,7 @@ h1 {
 li {
 	display: inline;
 	padding: 0 2em 0 2em;
-	font-size: 1.5em;
+	font-size: 1em;
 	text-align: center;
 	font-family: times, helvetica;
 }
@@ -47,7 +47,7 @@ a {
 
 img {
 	display: block;
-	padding: 4em 0 2em 0em;
+	padding: 1em 0 2em 0em;
 	margin: 0 auto 0 auto;
 	max-width: 40%;
 	max-height: auto;
@@ -63,24 +63,6 @@ footer {
 	text-align: center;
 	padding-bottom: 3em;
 	text-decoration: underline;
-}
-
-/*=========================================
-STORY
-==========================================*/
-
-.mother {
-	background-color: #000;
-}
-
-#title {
-	font-family: times;
-}
-
-.story {
-	text-align: left;
-	font-size: 1.3em;
-	padding: 0 0 0 0;
 }
 
 /*=========================================
